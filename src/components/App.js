@@ -3,7 +3,7 @@ import React from "react";
 import './../styles/App.css';
 import Tab from "./Tab"
 
-let tabs = [{title:"Tab 1",content:"Tab 1"},{title:"Tab 2",content:"Tab 2"},{title:"Tab 3",content:"Tab 3"}];
+let tabs = [{title:"Tab",content:"1"},{title:"Tab",content:"2"},{title:"Tab",content:"3"}];
 const App = () => {
   return (
     <div>

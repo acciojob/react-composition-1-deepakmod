@@ -11,14 +11,14 @@ function Tab({tabs}){
         <ul>
         {
             tabs.map((tab)=>(
-                <li onClick={()=>{setActiveTab(tab.title)}} >
-                    {tab.title}
+                <li onClick={()=>{setActiveTab(tab.content)}} >
+                    {tab.title} {tab.content}
                 </li>
             ))
         }
         </ul>
         
-        <p>This is the content for {activeTab}.</p>
+        <p>This is the content for Tab {activeTab}.</p>
     </div>
 
     )
