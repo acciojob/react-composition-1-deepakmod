@@ -18,7 +18,7 @@ function Tab({tabs}){
         }
         </ul>
         
-        <p>This is the content for Tab {activeTab}.</p>
+        <p>This is the content for Tab {activeTab||1}.</p>
     </div>
 
     )
